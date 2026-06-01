@@ -1,0 +1,15 @@
+/* Style for Main CTA Button */
+
+.cta-button{
+    background-color:#007BFF;
+    color:white;
+    padding:10px;
+    border:none;
+}
+
+/* Event Card Style */
+
+.eventCard{
+    border:1px solid black;
+    padding:15px;
+}

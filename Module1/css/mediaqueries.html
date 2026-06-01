@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Design</title>
+
+    <style>
+        nav {
+            display: flex;
+            gap: 20px;
+            background-color: lightblue;
+            padding: 10px;
+        }
+
+        nav a {
+            text-decoration: none;
+        }
+
+        img {
+            width: 400px;
+        }
+
+        @media screen and (max-width:768px) {
+
+            nav {
+                flex-direction: column;
+            }
+
+            img {
+                width: 200px;
+            }
+
+            body {
+                font-size: 14px;
+            }
+        }
+    </style>
+</head>
+<body>
+
+    <nav>
+        <a href="#">Home</a>
+        <a href="#">Events</a>
+        <a href="#">Contact</a>
+    </nav>
+
+    <h1>Community Event Portal</h1>
+
+    <img src="event.jpg" alt="Event Image">
+
+</body>
+</html>
